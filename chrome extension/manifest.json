@@ -1,0 +1,27 @@
+{
+    "manifest_version": 3,
+    "name": "Automate form filling",
+    "description": "This extension will help you to automate form filling",
+    "version": "1.0",
+    "action": {
+        "default_title": "Popup page",
+        "default_popup": "popup.html"
+    },
+    "icons": {
+        "16": "images/extension_icon16.png",
+        "48": "images/extension_icon48.png",
+        "128": "images/extension_icon128.png"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "host_permissions": [
+        "*://*/*"
+    ],
+    "permissions": [
+        "storage",
+        "tabs",
+        "activeTab",
+        "scripting"
+    ]
+}

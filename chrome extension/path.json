@@ -1,0 +1,22 @@
+{
+    "fields":[
+    {
+        "name":"firstname",
+        "xpath":"/html/body/div/form/div[1]/input",
+        "type":"text",
+        "value":"jack"
+    },
+    {
+        "name":"lastname",
+        "xpath":"/html/body/div/form/div[2]/input",
+        "type":"text",
+        "value":"reacher"
+    },
+    {
+        "name":"city",
+        "xpath":"/html/body/div/form/div[3]/select",
+        "type":"select-one",
+        "value":"Washington"
+    }
+]
+}
